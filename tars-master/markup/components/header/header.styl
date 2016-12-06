@@ -1,0 +1,168 @@
+.header
+    display flex
+    width 100%
+    height 90px
+    background colbg
+    border-bottom solid 1px #E6EAEA
+    
+    
+    &__boxmenu
+        top 0px
+        left 0px
+        display inherit
+        width 120px
+        border-right: 1px solid #E6EAEA
+        align-items center
+        justify-content center
+        height inherit
+
+        
+    &__burger
+
+        width 26px
+        height 22px
+        position relative
+        left -25px
+        
+        &:before
+            content 'МЕНЮ'
+            position absolute
+            font-family fontb
+            font-size 12px
+            display block
+            position absolute
+            top 2px
+            right -52px
+            color coltxt
+        
+        
+        span
+            
+            position absolute
+            display block
+            top 0px
+            height 4px
+            width 26px
+            background coltxt
+        
+            &:before
+                content ''
+                position absolute
+                display block
+                width 18px
+                height inherit
+                background coltxt
+                top 9px
+                left 0px
+            
+                
+            &:after
+                content ''
+                position absolute
+                display block
+                width 26px
+                height inherit
+                background coltxt
+                top 18px
+                left 0px
+                
+                
+    &__container
+        display inherit
+        justify-content space-between
+        height inherit
+        align-items center
+        width auto
+        v = 100%
+  
+        width: "calc(%s - 120px)" % v
+                
+    
+    &__logo-block
+        display block
+        height 65px
+        width auto
+        img
+            height 100%
+            width auto
+            
+            
+    &__shop-and-login
+        display inherit
+        flex-direction row-reverse
+        height inherit
+        
+        
+    &__in-shop
+        width 220px
+        background colfirm
+        height inherit
+        display inherit
+        justify-content center
+        align-items center
+        
+        span
+            color #fff
+            font-family fontb
+            font-size 14px
+            display inline-block
+            text-transform uppercase
+            
+    &__login
+        padding 0 35px
+        height inherit
+        display inherit
+        justify-content center
+        align-items center
+        
+        span
+            display inline-block
+            font-size 12px
+            color coltxt
+            text-transform uppercase
+            b
+                font-family fontb
+                
+                
+                
+    &__serch-block
+        padding 0 35px
+        padding-left 55px
+        height inherit
+        display inherit
+        justify-content center
+        align-items center
+        position relative
+        &:before
+            content '';
+            position absolute
+            display block
+            width 16px
+            height 16px
+            background  url(../img/general/search.svg)
+            left 37px
+            top 33px
+        
+        
+        
+        input
+            font-family fontb
+            font-size 12px
+            background transparent
+            text-transform uppercase
+            outline none
+            padding 10px
+            border solid 0px
+            box-shadow 0
+            placeholder-color(coltxt)
+            
+            
+            
+        
+            
+        
+        
+        
+            
+        
+        
