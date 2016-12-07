@@ -44,7 +44,7 @@ module.exports = {
 
     js: {
         // concat, modular
-        workflow: 'concat',
+        workflow: 'modular',
 
         // Only webpack is available right now
         bundler: 'webpack',

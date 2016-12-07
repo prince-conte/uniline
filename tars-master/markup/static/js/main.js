@@ -1,1 +1,2 @@
-const $ = require('slick-carousel');
+const $ = require('jquery');
+const slick = require('slick-carousel');

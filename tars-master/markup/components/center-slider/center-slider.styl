@@ -156,6 +156,7 @@
         background #000
         position relative
         text-align center;
+        position relative
         &:after
             content ''
             position absolute
@@ -262,7 +263,24 @@
     .slick-prev:hover
         .phbg 
             opacity 1
-            background colfirm     
+            background colfirm   
             
             
- 
+.center-slider__info
+    position absolute
+    bottom 45px
+    left 45px
+    z-index 9999999
+    display none
+               
+.center-slider__info_title
+    color #fff
+    font-family fontblack
+    font-size 28px
+    m-speed(.8s)
+    z-index 9999999
+            
+            
+.slick-active
+    .center-slider__info
+        display block
